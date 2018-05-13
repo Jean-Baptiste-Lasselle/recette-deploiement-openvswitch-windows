@@ -102,7 +102,7 @@ une personne ayant rencontré la même problématique:
 
 https://www.tenforums.com/virtualization/40379-virtualization-suddenly-gone-64bit-guest-64bit-host-virtualbox.html
 
-et une flot issue tracker du forum VirtualBox:
+et un topic du forum officiel VirtualBox, confirmant qu'il y a bien impossibilité de faire des VMs VirtualBox, si Hyper-V est activé en tant que fonctionnalité Windows:
 
 https://forums.virtualbox.org/viewtopic.php?f=6&t=86449
 
@@ -110,9 +110,7 @@ https://forums.virtualbox.org/viewtopic.php?f=6&t=86449
 
 
 
-## Remarques kytes
-
-
+Donc, comment fait-on u switch openvswitch sous windows, pour connecter des VM virtualBox entre elles?, cf. ["Nouvelle Piste"](#nouvelle-piste)
 
 
 # pour les bonnes pratiques de configuration réseau Hyper-V: https://www.altaro.com/hyper-v/virtual-networking-configuration-best-practices/
