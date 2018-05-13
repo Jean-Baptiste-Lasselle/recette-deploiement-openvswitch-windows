@@ -4,7 +4,7 @@
 
 * [dotnet-sdk-2.1.200-win-x64.exe]  :   la dernière mise à jour SDK .NET framework, pour préparer le terrain pour les commandes `msbuild` => trop gros fichier pour être inclut dans le repo, vous devrez le télécharger vous-même, pour l'installer manuellement.
 Comme en atteste mon commit incluant le fichier `dotnet-sdk-2.1.200-win-x64.exe` de plus de 100 Mo, Github fixe une limite de 100 Mo pour les fichiers inclut dans les repos gratuits:
-![Github fixe une limite de 100 Mo ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/limite-100Mo-GITHUB.png)
+![Github fixe une limite de 100 Mo ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/doc/screenshots/limite-100Mo-GITHUB.png)
 
 * [vs_buildtools__1840196686.1526156758.exe]  :   pour pouvoir faire des commandes `msbuild` sans installer visualstudio en entier (le sdk l'inclut peut-être déjà....)
 * [dotNetFx35setup.exe]  :   .NET Framework 3.5, dépendance à l'exécution de "Wix Tools"
