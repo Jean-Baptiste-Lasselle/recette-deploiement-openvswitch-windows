@@ -11,7 +11,12 @@ Restart-Computer -Force
 # Après avoir re-démarré, il faudra installer openvswitch for Windows, la version distribuée par Cloudbase:
 # https://cloudbase.it/openvswitch/#download
 cd C:\moi\IAAS\the-devops-program\recettes\provision-openvswitch\windows\
-msiexec /i .\bin\cloudbase.it\openvswitch-hyperv-2.5.0.msi /l*v log.txt
+# installation openvswitch avec [la distribution cloudbase pour windows](https://cloudbase.it/openvswitch/#download):
+
+# en utilisant la version contenue dans le repo :[./bin/cloudbase.it/openvswitch-hyperv-2.7.0-certified.msi]
+msiexec /i .\bin\cloudbase.it\openvswitch-hyperv-2.7.0-certified.msi /l*v log.txt
+# msiexec /i C:\moi\IAAS\the-devops-program\recettes\provision-openvswitch\windows\bin\cloudbase.it\openvswitch-hyperv-2.7.0-certified.msi /l*v log.txt
+
 # très amusant: après avoir activé hyper-V, la virutalisation système est remise aux paramètres par défaut, je
 # dois retourner dans la séquence de boot pour ré-activer les options de virtualisation
 
