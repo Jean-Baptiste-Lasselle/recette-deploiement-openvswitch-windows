@@ -4,6 +4,9 @@ Une première recette de provision OpenVswitch sur une machine windows (édition
 
 Le but étant d'essayer d'inter-connecter des VMs dans un réseau isolé layer 2
 
+# Testé sous 
+
+* Windows 10 Desktop professional ed.
 
 # Structure
 
@@ -71,7 +74,7 @@ Pour rétablir la situation, j'ai du:
 * désactiver hyper-v `# Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V`
 * re-démarrer la machine
 * re-vérifier l'activation Intel VT-x du CPU
-* Aller au menu windows graphique "activer ou désactiver des fonctionnalités Windows", pour bien dé-cocher les cases "Hyper-V" (toutes), et de même pour le NET framework que j'avais installé pour le build cloudbase.it d'openvswitch pour windows. DAns ce menu, j'ai pu vérifer:
+* Aller au menu windows graphique "Activer ou Désactiver des fonctionnalités Windows", pour bien dé-cocher les cases "Hyper-V" (toutes), et de même pour le NET framework que j'avais installé pour le build cloudbase.it d'openvswitch pour windows. DAns ce menu, j'ai pu vérifer:
   * Que la commande `# Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V` a désactivé la partie  "Platefrome Hyper-V", mais pas la partie "Outils d'administration Hyper-V".
   * Je la désactive donc manuellement pour valider la solution, puis il faudra trouver la commande powershell correspondante
 * re-démarrer la machine
@@ -82,6 +85,13 @@ Pour rétablir la situation, j'ai du:
 * ré-installer VirtualBox
 * Et ouf! ça y est, j'ai à nouveau accès normal à la virtualisation avec virutalbox
 
+J'ai bien vérifié:
+
+* dès que j'exécute `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All` (+ reboot windows), je n'ai plus que le choix 32bits pour les VMs virtual box
+* dès que je désactive TOUTES les fonctionnalités Hyper-V avec le menu graphique "Activer ou Désactiver des fonctionnalités Windows" (+ reboot windows), j'ai à nouvau le choix 64bits pour les VMs virtual box
+* et je n'ai pas eu à ré-installer VirtualBox
+* et à chaque reboot, j'ai pu vérifier que l'option de virtualisation Intel VT-x était toujours activée ("Enabled") dans le BIOS / UEFI 
+* Ce ne peut donc être qu'une limite imposée de Hyper-V, 32 bits VM uniuqment sur Virual box 
 
 ## Remarques kytes
 
