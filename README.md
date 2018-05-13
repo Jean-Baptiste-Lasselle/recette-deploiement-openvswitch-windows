@@ -93,6 +93,12 @@ J'ai bien vérifié:
 * et à chaque reboot, j'ai pu vérifier que l'option de virtualisation Intel VT-x était toujours activée ("Enabled") dans le BIOS / UEFI 
 * Ce ne peut donc être qu'une limite imposée de Hyper-V, 32 bits VM uniuqment sur Virual box 
 
+Pour terminer, si je n'exécute pas la commande ccc d'activation d'Hyper-V, alors pour totues les autres commandes 
+de création du switch openvswitch, on obtient une erreur, et les erreurs sont les suivantes:
+
+![erreurs hyper-v non-activé ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/doc/screenshots/powershell-enable-hyper-v.17.erreurs-si-je-n-active-pas-hyper-v.png)
+
+
 ## Remarques kytes
 
 
