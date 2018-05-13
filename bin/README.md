@@ -15,18 +15,14 @@ page où on été trouvés les liens de téléchargement:
 
 https://www.visualstudio.com/downloads/
 
+![les 2 downloads ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/telechargment-net-framework-update-et-build-tools.png)
 
-![les 2 downloads ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/telechargment-net-framework-update.png)
+![le  download dotnet sdk  ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/telechargment-net-sdk.png)
 
 
-
-
-page où a été trouvé le lien de téléchargement de la mise à jour .NET framework:
+page où ont été trouvées le lien de téléchargement des mises à jour .NET framework:
 
 https://www.microsoft.com/net/download/windows
-
-![impression écran](ccc)
-
 
 
 # Dépendances d'ordre supérieur à 1
@@ -38,3 +34,8 @@ Donc non résolues automatiquement... (peut-être y-a-t-il du package manager mi
 ![Dépendance "Wix tools" <=> .NET Framework 3.5](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/doc/screenshots/derniere-erreur/dependance-wix-tools-net-framework-3.5.png)
 
 
+# Screenshots installation microsoft build tools pour la recette testées
+
+![install msbuild tools partie1](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools1.png)
+![install msbuild tools partie2](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools2.png)
+![install msbuild tools partie3](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools3.png)

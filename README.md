@@ -154,9 +154,4 @@ msiexec /i .\bin\cloudbase.it\openvswitch-hyperv-2.7.0-certified.msi /l*v log.tx
 ```
 
 
-# Screenshots installation microsoft build tools pour la recette testées
-
-![install msbuild tools partie1](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools1.png)
-![install msbuild tools partie2](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools2.png)
-![install msbuild tools partie3](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/bin/screenshots/installation-ms-build-tools3.png)
 
