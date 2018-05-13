@@ -154,4 +154,14 @@ msiexec /i .\bin\cloudbase.it\openvswitch-hyperv-2.7.0-certified.msi /l*v log.tx
 ```
 
 
+# Nouvelle Piste
 
+Il s'agit d'un article qui montre comment configurer l'hôte VirutalBox pour qu'il fonctionne avec OpenVSwitch, et que les réseaux des VMs virtualbox puissent être connectés aux switchs ovs :
+https://sites.google.com/site/nandydandyoracle/openvswitch-ovs/configuring-virtualbox-vms-for-openvswitch-networking
+
+Cet artricle fait référence à d'autres:
+
+* pour faire le build from source d'openvswitch: https://sites.google.com/site/nandydandyoracle/openvswitch-ovs/openvswitch-source-build-oracle-linux-7-uek4
+* Cet article traite un sujet différent (cluster de ....), mais le Système DNS / DHCP décrit est le même que celui utilisé dans l'article pour gérer les réseaux openvswitch : https://sites.google.com/site/nandydandyoracle/oracle-rac-in-lxc-linux-containers/oracle-12c-rac-asm-flex-cluster-on-lxc-linux-containers-ubuntu-14-10
+
+Tous ces articles sont sous format PDF dans ce repo dans le répertoire `./doc/nouvelle-piste/`
