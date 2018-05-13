@@ -98,6 +98,17 @@ de création du switch openvswitch, on obtient une erreur, et les erreurs sont l
 
 ![erreurs hyper-v non-activé ](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/doc/screenshots/powershell-enable-hyper-v.17.erreurs-si-je-n-active-pas-hyper-v.png)
 
+une personne ayant rencontré la même problématique:
+
+https://www.tenforums.com/virtualization/40379-virtualization-suddenly-gone-64bit-guest-64bit-host-virtualbox.html
+
+et une flot issue tracker du forum VirtualBox:
+
+https://forums.virtualbox.org/viewtopic.php?f=6&t=86449
+
+![flot issue tracker du forum VirtualBox](https://github.com/Jean-Baptiste-Lasselle/recette-deploiement-openvswitch-windows/raw/master/doc/screenshots/issue-virtualbox-hyper-v-forumvbox.png)
+
+
 
 ## Remarques kytes
 
